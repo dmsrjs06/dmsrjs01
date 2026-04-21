@@ -5,16 +5,16 @@ int main() {
     sparseMatrix* sm = createSparseMatrix(10, 10);
     initSparseMatrix(sm, 20);
 
-    printf("¿øº» Èñ¼ÒÇà·Ä:\n");
+    printf("í¬ì†Œí–‰ë ¬:\n");
     printFullMatrix(sm);
 
     int moveCount = 0;
     sparseMatrix* tsm = transposeSparseMatrix(sm, &moveCount);
 
-    printf("\nÀüÄ¡Çà·Ä:\n");
+    printf("\nì „ì¹˜í–‰ë ¬:\n");
     printFullMatrix(tsm);
 
-    printf("\nµ¥ÀÌÅÍ ÀÌµ¿ È½¼ö: %d\n", moveCount);
+    printf("\në°ì´í„° ì´ë™ íšŸìˆ˜: %d\n", moveCount);
 
     destroySparseMatrix(sm);
     destroySparseMatrix(tsm);
