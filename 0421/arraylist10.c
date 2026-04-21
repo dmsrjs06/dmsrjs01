@@ -21,7 +21,6 @@ int sizeArrayList(arrayList* al) { return al->size; }
 
 int insertArrayList(arrayList* al, int pos, elementArrayList item) {
     if (item <= 0) {
-        printf("¿À·ù: ¾çÀÇ Á¤¼ö¸¸ ÀÔ·Â °¡´ÉÇÕ´Ï´Ù.\n");
         return 0;
     }
     if (pos < 0 || pos > al->size) return 0;
@@ -62,7 +61,6 @@ elementArrayList getItemArrayList(arrayList* al, int pos) {
 
 int replaceItemArrayList(arrayList* al, int pos, elementArrayList item) {
     if (item <= 0) {
-        printf("¿À·ù: ¾çÀÇ Á¤¼ö¸¸ ÀÔ·Â °¡´ÉÇÕ´Ï´Ù.\n");
         return 0;
     }
     if (pos < 0 || pos >= al->size) return 0;
@@ -71,7 +69,7 @@ int replaceItemArrayList(arrayList* al, int pos, elementArrayList item) {
 }
 
 void printArrayList(arrayList* al) {
-    printf("¼øÂ÷ ¸®½ºÆ®: ");
+    printf("ìˆœì°¨ ë¦¬ìŠ¤íŠ¸: ");
     for (int i = 0; i < al->size; i++) {
         printf("[%d]=%d ", i, al->data[i]);
     }
