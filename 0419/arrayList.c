@@ -89,7 +89,7 @@ int replaceItemArrayList(arrayList* al, int pos, elementArrayList item) {
 }
 
 void printArrayList(arrayList* al) {
-    printf("¼øÂ÷ ¸®½ºÆ®: ");
+    printf("ìˆœì°¨ë¦¬ìŠ¤íŠ¸: ");
     for (int i = 0; i < al->size; i++) {
         printf("%d ", al->data[i]);
     }
