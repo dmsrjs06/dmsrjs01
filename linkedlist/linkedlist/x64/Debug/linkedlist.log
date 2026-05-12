@@ -1,0 +1,6 @@
+﻿  LinkedList.c
+C:\Users\Kimeu\OneDrive\바탕 화면\자료 구조 과제\linkedlist\linkedlist\LinkedList.c(50,10): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'pointType *'입니다.
+C:\Users\Kimeu\OneDrive\바탕 화면\자료 구조 과제\linkedlist\linkedlist\LinkedList.c(50,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) pointType *' 형식의 인수 4과(와) 충돌합니다.
+C:\Users\Kimeu\OneDrive\바탕 화면\자료 구조 과제\linkedlist\linkedlist\LinkedList.c(55,1): warning C4716: 'printLinkedList': 값을 반환해야 합니다.
+C:\Users\Kimeu\OneDrive\바탕 화면\자료 구조 과제\linkedlist\linkedlist\LinkedList.c(117,1): warning C4716: 'insertItemLinkedList': 값을 반환해야 합니다.
+  linkedlist.vcxproj -> C:\Users\Kimeu\OneDrive\바탕 화면\자료 구조 과제\linkedlist\x64\Debug\linkedlist.exe
